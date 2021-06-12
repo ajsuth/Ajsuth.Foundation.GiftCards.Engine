@@ -1,4 +1,4 @@
-# Extended Sitecore Commerce Catalog
+# Extended Sitecore Commerce Gift Cards
 Custom Sitecore Commerce gift cards plugin project with extended functionality for the Business Tools.
 
 ## Disclaimer

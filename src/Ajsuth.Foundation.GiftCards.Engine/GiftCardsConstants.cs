@@ -23,6 +23,11 @@ namespace Ajsuth.Foundation.GiftCards.Engine
                 /// The get gift cards navigation block name.
                 /// </summary>
                 public const string GetGiftCardsNavigation = "GiftCards.Block.GetGiftCardsNavigation";
+
+                /// <summary>
+                /// The get gift cards view block name.
+                /// </summary>
+                public const string GetGiftCardsView = "GiftCards.Block.GetGiftCardsView";
             }
         }
     }

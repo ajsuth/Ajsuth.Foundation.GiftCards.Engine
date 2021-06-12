@@ -15,8 +15,12 @@ namespace Ajsuth.Foundation.GiftCards.Engine.Policies
         public KnownGiftCardsViewsPolicy()
         {
             GiftCardsDashboard = nameof(GiftCardsDashboard);
+            GiftCards = nameof(GiftCards);
+            Summary = nameof(Summary);
         }
 
         public string GiftCardsDashboard { get; set; }
+        public string GiftCards { get; set; }
+        public string Summary { get; set; }
     }
 }

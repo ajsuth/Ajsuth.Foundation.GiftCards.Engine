@@ -6,6 +6,7 @@
 
 using Microsoft.Extensions.DependencyInjection;
 using Sitecore.Commerce.Core;
+using Sitecore.Commerce.EntityViews;
 using Sitecore.Commerce.Plugin.BusinessUsers;
 using Sitecore.Framework.Configuration;
 using Sitecore.Framework.Pipelines.Definitions.Extensions;
@@ -36,6 +37,10 @@ namespace Ajsuth.Foundation.GiftCards.Engine
 
                 .ConfigurePipeline<IBizFxNavigationPipeline>(pipeline => pipeline
                     .Add<Pipelines.Blocks.GetGiftCardsNavigationBlock>().After<GetNavigationViewBlock>()
+                )
+
+                .ConfigurePipeline<IGetEntityViewPipeline>(pipeline => pipeline
+                    .Add<Pipelines.Blocks.GetGiftCardsViewBlock>().After<PopulateEntityVersionBlock>()
                 )
 
             );
