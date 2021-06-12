@@ -18,7 +18,6 @@ namespace Ajsuth.Foundation.GiftCards.Engine.Pipelines.Blocks
     public class GetGiftCardsNavigationBlock : SyncPipelineBlock<EntityView, EntityView, CommercePipelineExecutionContext>
     {
         /// <summary>Initializes a new instance of the <see cref="GetGiftCardsNavigationBlock" /> class.</summary>
-        /// <param name="commander">The commerce commander.</param>
         public GetGiftCardsNavigationBlock()
         {
         }

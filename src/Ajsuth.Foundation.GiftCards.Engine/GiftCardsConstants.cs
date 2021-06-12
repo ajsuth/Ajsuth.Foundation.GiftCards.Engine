@@ -28,6 +28,12 @@ namespace Ajsuth.Foundation.GiftCards.Engine
                 /// The get gift cards view block name.
                 /// </summary>
                 public const string GetGiftCardsView = "GiftCards.Block.GetGiftCardsView";
+
+                /// <summary>
+                /// The populate gift cards view actions block name.
+                /// </summary>
+                public const string PopulateGiftCardsViewActions = "GiftCards.Block.PopulateGiftCardsViewActions";
+                
             }
         }
     }
