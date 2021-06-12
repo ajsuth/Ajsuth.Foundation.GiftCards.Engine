@@ -41,6 +41,7 @@ namespace Ajsuth.Foundation.GiftCards.Engine
 
                 .ConfigurePipeline<IGetEntityViewPipeline>(pipeline => pipeline
                     .Add<Pipelines.Blocks.GetGiftCardsViewBlock>().After<PopulateEntityVersionBlock>()
+                    .Add<Pipelines.Blocks.GetGiftCardDetailsViewBlock>().After<PopulateEntityVersionBlock>()
                 )
 
                 .ConfigurePipeline<IPopulateEntityViewActionsPipeline>(pipeline => pipeline

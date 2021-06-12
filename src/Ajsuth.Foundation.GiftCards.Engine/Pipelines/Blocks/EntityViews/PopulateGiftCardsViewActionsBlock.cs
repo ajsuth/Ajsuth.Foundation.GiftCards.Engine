@@ -43,8 +43,8 @@ namespace Ajsuth.Foundation.GiftCards.Engine.Pipelines.Blocks
                 new EntityActionView
                 {
                     Name = knownActionsPolicy.CreateGiftCard,
-                    DisplayName = "Edit Sellable Item Inventory",
-                    Description = "Edits the sellable item inventory",
+                    DisplayName = "Create Gift Card",
+                    Description = "Creates a Gift Card",
                     IsEnabled = true,
                     EntityView = viewsPolicy.CreateGiftCard,
                     Icon = "add"

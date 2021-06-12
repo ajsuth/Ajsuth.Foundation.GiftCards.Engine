@@ -20,6 +20,11 @@ namespace Ajsuth.Foundation.GiftCards.Engine
             public static class Blocks
             {
                 /// <summary>
+                /// The get gift card details block name.
+                /// </summary>
+                public const string GetGiftCardDetailsView = "GiftCards.Block.GetGiftCardDetailsView";
+                
+                /// <summary>
                 /// The get gift cards navigation block name.
                 /// </summary>
                 public const string GetGiftCardsNavigation = "GiftCards.Block.GetGiftCardsNavigation";
